@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    background-color: #f78f98;
+    align-content: right;
+    justify-content: right;
+    padding-top: 120px;
+    padding-right: 120px
+}
+.container{
+    background-color: #faa7b1;
+    width: 400px;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+p{
+    margin: 0;
+    text-align: left;
+    padding-left: 95px;
+    font-family: cambria;
+}
+input{
+    width: 200px;
+    cursor: pointer;
+}
+h1{
+    font-family: cambria;
+}
+.valenContainer{
+    position: absolute;
+    padding-top: 100px;
+    left: 0px;
+    font-family: Georgia;
+    font-style: italic;
+
+}
+.valentines{
+    font-style: italic;
+    font-size: 90px;
+    color: #FF3334;
+}
+.sentence{
+    color: black;
+}
+.submitBTN{
+    width: 80px;
+}
+.heart{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 390px;
+}
+.couple{
+    position: relative;
+    position: absolute;
+    width: px;
+    height: 100%;
+    right: -40px;
+    top: 10px;
+    z-index: -1;
+}
